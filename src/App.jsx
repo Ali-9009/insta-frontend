@@ -5,7 +5,7 @@ import ResultCard from "./components/ResultCard.jsx";
 import Loader from "./components/Loader.jsx";
 import Footer from "./components/Footer.jsx";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5001";
+const API_URL = import.meta.env.VITE_API_URL || "https://insta-backend-iota.vercel.app";
 
 const STEPS = [
   { n: "01", title: "Paste the link", body: "Copy a Reel, Post, or Story URL straight from the Instagram app or site." },
